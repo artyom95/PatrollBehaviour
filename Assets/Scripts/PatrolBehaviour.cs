@@ -41,7 +41,7 @@ public class PatrolBehaviour : MonoBehaviour
             {
                 _countStartPosition ++;
                 _countEndPosition ++;
-                if (_countEndPosition == 5)
+                if (_countEndPosition == _points.Count)
                 {
                     _countStartPosition = 0;
                     _countEndPosition = 1;
